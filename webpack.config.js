@@ -55,7 +55,7 @@ module.exports = {
 			filename: "[name].css"
 		})
     ],
-	Optimization: {
+	optimization: {
 		minimize: true,
 		minimizer: [
 			new CSSMinimizerPlugin(),
